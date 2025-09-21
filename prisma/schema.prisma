@@ -15,7 +15,7 @@ model User {
   email    String  @unique
   password String?
 
-  title  String @default("Не указано")
+  name   String @default("Не указано")
   avatar String @default("/uploads/no-user-avatar.png")
 
   stores    Store[]
